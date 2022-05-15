@@ -7,7 +7,7 @@ import (
 	"example.com/biigist/fp1280"
 )
 
-//go:generate go run goff_gen.go
+//go:generate go run fp1280_gen.go
 
 func BenchmarkBigIntInc(b *testing.B) {
 	for _, v := range benchTableBigIntInc {
